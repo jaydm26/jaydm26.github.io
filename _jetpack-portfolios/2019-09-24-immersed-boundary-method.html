@@ -1,0 +1,102 @@
+---
+layout: jetpack-portfolio
+title: Immersed Boundary Method
+date: 2019-09-24 19:07:10.000000000 +05:30
+type: jetpack-portfolio
+parent_id: '0'
+published: true
+password: ''
+status: publish
+categories: []
+tags: []
+meta:
+  _thumbnail_id: '707'
+  _publicize_job_id: '35648669987'
+  publicize_linkedin_url: ''
+  _publicize_done_22027551: '1'
+  _wpas_done_22819558: '1'
+author:
+  login: jaydm26
+  email: jay@ilovecars.in
+  display_name: jaydm26
+  first_name: ''
+  last_name: ''
+permalink: "/portfolio/immersed-boundary-method/"
+excerpt: The Immersed Boundary Method is a classic CFD approach for solving the flow
+  problems involving an immersed boundary (object).
+---
+<p><!-- wp:paragraph --></p>
+<p>The Immersed Boundary (IB) Method is a method to solve CFD equations for a body immersed in a fluid (thus the name). This method extremely useful for solving problems involving bluff bodies. Sharp or aerodynamic bodies can also be solved through some modifications. This method was initially introduced by Professor Peskin at the Courant Institute of Mathematics at NYU. The original problem was to simulated the flow inside a heart. The link to Professor Peskin's work is <a href="https://www.sciencedirect.com/science/article/pii/0021999172900654" target="_blank" rel="noreferrer noopener" aria-label="here (opens in a new tab)">here</a>.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>The greatest advantage of the above method is it allows us to solve the CFD equations on a regular cartesian grid as opposed to a body fitted grid which would be need for a method like SIMPLE.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>The method relies on the introducing an artificial forcing function to the momentum equation when there is a boundary present. The presence of a boundary is told to the equation using a Dirac function.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"align":"center","id":671} --></p>
+<div class="wp-block-image">
+<figure class="aligncenter"><img src="{{ site.baseurl }}/assets/delta.001.jpeg?w=213" alt="" class="wp-image-671" /></figure>
+</div>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph --></p>
+<p>The above is the Dirac function in 1D. This can obviously be extended to 2D and 3D by multiplying the Dirac function for each dimension. Example:</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph {"align":"center"} --></p>
+<p class="has-text-align-center">$latex \delta_{2D}(x,y) = \delta(x) \delta(y)$<br />$latex \delta_{3D}(x,y) = \delta(x) \delta(y) \delta(z)$</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>The recast incompressible fluid equations would be the following:</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph {"align":"center"} --></p>
+<p class="has-text-align-center">Continuity : $latex \Delta \cdot \textbf{u} = 0$<br />Momentum: $latex \dfrac{\partial \textbf{u}}{\partial t} + \textbf{u} \cdot \dfrac{\partial \textbf{u}}{\partial \textbf{x}} = \dfrac{1}{\rho}\Delta p + \nu \Delta^2 \textbf{u} + \textbf{g} + \displaystyle \int_{d\Omega} \textbf{u}_b(s) \delta_{3D}(\textbf{x} - \xi (s)) ds $</p>
+<p>which are valid is the domain space $latex \mathbb{R}^3$</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>In the above equation, all terms and symbols have their usual meaning. $latex \textbf{u}_b$ describes the velocity of the fluid on the object. Of course, from basic fluid dynamics, we know that we cannot allow the fluid to slip over or penetrate the body. So the $latex \textbf{u}_b$ must be the velocity of the body. In more technical terms, this process is called mapping. We are mapping the velocity of the body to the velocity field of the domain. </p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>$latex \xi(s)$ is a function for the geometry of the body. From what we learnt about the Dirac function above, $latex \textbf{x} = \xi(s)$ for $latex \delta_{3D} = 1$. Otherwise, the momentum equation reduces to the standard form. Thus, this additional force only acts when we are evaluating at the boundary of the object.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Further, we have to ensure that the vice-versa is also true, i.e., the velocity field mapped on to the body yields the velocity of the body. Mathematically,</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph {"align":"center"} --></p>
+<p class="has-text-align-center">$latex \displaystyle \int_{\mathbb{R}} \textbf{u} \delta_{3D}(\xi (s) - \textbf{x}) dx = \textbf{u}_b $</p>
+<p>where $latex \xi(s) \in d\Omega$</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Of course, the above equations are only true in the continuous world. When we switch over to the discrete world, we have to make some approximations. Firstly, we have to approximate the Dirac function because it is not always possible to have a body point lie exactly on a domain point.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Various approximations for the Dirac function are available in literature. The one most commonly used was introduced by a student of Professor Peskin in a paper in 1999.  The link to the paper is available <a href="https://doi.org/10.1006/jcph.1999.6293" target="_blank" rel="noreferrer noopener" aria-label=" (opens in a new tab)">here</a>. In the paper, the Dirac function is approximated as:</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:image {"align":"center","id":689,"sizeSlug":"large"} --></p>
+<div class="wp-block-image">
+<figure class="aligncenter size-large"><img src="{{ site.baseurl }}/assets/discrete-delta.001.jpeg?w=601" alt="" class="wp-image-689" /></figure>
+</div>
+<p><!-- /wp:image --></p>
+<p><!-- wp:paragraph --></p>
+<p>Here, $latex x$ is non-dimensionalized with the grid spacing.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>Nonetheless, the Immersed Boundary Method has a fundamental branching at the very beginning of the problem. While the above method involves the forcing function directly into the continuous equations, another approach can be taken where the forcing function is brought into the equations after discretizing the Naiver-Stokes equations. Thus, we have two branches of the Immersed Boundary Method: Continuous Forcing Method, and the Discrete Forcing Method. Both methods have their merits and drawbacks. </p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>The Continuous method forms a sound theoretical and physical understanding of the idea behind the immersed boundary method by introducing a term in the continuous equations which will enforce the no-slip and no-flow-through condition on the boundary of the object. While this method was disliked for rigid bodies due to the formation of a stiff matrix, the Immersed Boundary Projection Method (as developed by Professor Colonius and Professor Taira) has made this method highly attractive for Immersed Boundary Method implementation. The only drawback of this method is its reliance on the discretization method employed for numerical stability.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>The Discrete Method applies the forcing after the discretization of the Naiver-Stokes equation. This allows for a more direct control over the numerical stability of the method. This is especially useful for moderate to high Reynolds Number applications. One major drawback of this method is its requirement of an imposing pressure (which is not required by the continuous approach). Another drawback of this method is that including boundary motion into the discrete equations can be difficult to implement.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>One drawback of the Immersed Boundary Method is its inability to exactly satisfy the conservation equations due to the use of the distribution function to approximate the value of Dirac delta. Due to the distribution function, the effect of the boundary is spread into the fluid region which affects the conservation equations.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>In conclusion, the Immersed Boundary Method allows us to solve for an immersed boundary (object) inside a fluid (rigid or elastic). This method is extremely useful as it allows us to solve for the immersed object without forming a body-conforming grid around it. The method, while being unable to exactly conserve the fluid properties, is an excellent approximation to a complex problem. The great advantage of this method is that we can use a traditional Cartesian grid for the flow field which allows us to quickly solve the discretized Navier-Stokes equations.</p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph --></p>
+<p>This method can be extended to conserve any fluid property once we have obtained the velocity distribution of the flow for an incompressible Newtonian fluid (like temperature, species, etc.). </p>
+<p><!-- /wp:paragraph --></p>
+<p><!-- wp:paragraph {"fontSize":"normal"} --></p>
+<p class="has-normal-font-size">One can refer to Professor Colonius and Professor Taira's paper <a rel="noreferrer noopener" aria-label="here (opens in a new tab)" href="http://colonius.caltech.edu/pdfs/TairaColonius2007.pdf" target="_blank">here</a>, and Professor Mittal and Iaccarino's paper <a rel="noreferrer noopener" aria-label="here (opens in a new tab)" href="https://pdfs.semanticscholar.org/0ebc/8349657f7388476205e3cb03aaa162d45ac6.pdf" target="_blank">here</a> for more details and a thorough overview on the subject.</p>
+<p><!-- /wp:paragraph --></p>
