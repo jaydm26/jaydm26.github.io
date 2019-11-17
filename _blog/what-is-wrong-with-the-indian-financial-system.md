@@ -5,7 +5,7 @@ date: 2018-05-10 22:33:28.000000000 +05:30
 type: blog
 categories: finance
 tags: demonetization, GST, finance
-permalink: "blog/2018/what-is-wrong-with-the-indian-financial-system/"
+#permalink: "blog/2018/what-is-wrong-with-the-indian-financial-system/"
 ---
 
 | ![]({{ site.baseurl }}/assets/pexels-photo-164636.jpg)|

@@ -5,7 +5,7 @@ date: 2018-07-20 18:07:30.000000000 +05:30
 type: blog
 categories: business
 tags: facebook, politics
-permalink: "blog/2018/should-facebook-pick-a-side/"
+#permalink: "blog/2018/should-facebook-pick-a-side/"
 excerpt: Facebook is under the pump. Should it pick a side?
 ---
 

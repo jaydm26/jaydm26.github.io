@@ -5,7 +5,7 @@ date: 2019-09-08 22:46:50.000000000 +05:30
 type: post
 categories: personal
 tags: phd, UCLA, Mechanical Engineering
-permalink: "blog/2019/giving-a-ph-d-qualification-just-because/"
+#permalink: "blog/2019/giving-a-ph-d-qualification-just-because/"
 excerpt: I gave the Ph.D. qualification exam and I passed. Why I gave the exam? I don't know.
 ---
 

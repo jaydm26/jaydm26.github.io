@@ -5,7 +5,7 @@ type: blog
 date: 2018-03-18 16:47:29.000000000 +05:30
 categories: projects
 tags: project, advice
-permalink: "/blog/2018/final-year-projects/"
+#permalink: "/blog/2018/final-year-projects/"
 ---
 
 When you are 1 out of over 5000 students preparing for your final year project, it gets messy, or at least that's what I feel.

@@ -5,7 +5,7 @@ date: 2019-08-01 10:30:02.000000000 +05:30
 type: blog
 categories: business
 tags: apple, iPhone, Mac, iPad
-permalink: "blog/2019/apples-q3-2019-results/"
+#permalink: "blog/2019/apples-q3-2019-results/"
 ---
 
 Time and again, I hear that Apple is expected to under-perform compared to their results in the previous year. And every time, I see Apple come up with a quarterly result that beats market estimates. The third quarter of 2019 was no different.

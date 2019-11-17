@@ -5,7 +5,7 @@ date: 2018-03-30 09:53:21.000000000 +05:30
 type: blog
 categories: renewable energy
 tags: green energy, energy storage
-permalink: "/blog/2018/renewable-energy-where-to-go-next/"
+#permalink: "/blog/2018/renewable-energy-where-to-go-next/"
 ---
 
 When I was growing up, Renewable Energy was developing at a steady pace. Conventional sources of energy were not a huge problem. But my young mind was already thinking ahead: "What happens when you run out of fuel?" My mother said, "There is the sun and the wind." That was the spark. I made it my objective to figure out the best way to provide renewable energy.

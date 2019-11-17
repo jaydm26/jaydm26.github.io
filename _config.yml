@@ -39,6 +39,16 @@ theme: minima
 plugins:
   - jekyll-feed
 
+# Adding Collections
+
+collections:
+  blog:
+    type: blog
+  portfolio:
+    type: portfolio
+
+# Adding Defaults
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to

@@ -5,7 +5,7 @@ date: 2018-12-20 07:33:38.000000000 +05:30
 type: blog
 categories: renewable energy
 tags: energy storage, google, alphabet
-permalink: "blog/2018/malta-graduated/"
+#permalink: "blog/2018/malta-graduated/"
 ---
 
 Malta Inc. is the newest company that stepped out of X, the moonshot factory. I am currently working on thermal energy storage systems, so this is super exciting for me.

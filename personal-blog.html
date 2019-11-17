@@ -3,12 +3,11 @@ layout: page
 title: Personal Blog
 type: menu-bar-item
 menu_order: 3
-permalink: /blog/
+#permalink: /blog/
 ---
 <h1> This is the place for all personal plog posts </h1>
 <ul>
-	{%- assign blog_posts = site.blog | where: "type", "blog" -%}
-	{%- for post in blog_posts -%}
+	{%- for post in site.blog -%}
 		<li><a class="post-link" href = "{{post.url | relative_url}}">{{post.title | escape}}</a>
 			{%- if site.show_excerpt -%} {{post.excerpt}} {%- endif -%}
 		</li>

@@ -5,7 +5,7 @@ date: 2018-03-30 02:53:39.000000000 +05:30
 type: blog
 categories: projects
 tags: project, achievement
-permalink: "/blog/2018/winning-a-project-competition/"
+#permalink: "/blog/2018/winning-a-project-competition/"
 ---
 
 Every now and again, a time comes when you get validation for all your efforts: You've studied hard, you get an admit from Stanford. You crunch the numbers right, you get paid big on the market.

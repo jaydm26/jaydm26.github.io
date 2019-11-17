@@ -5,7 +5,7 @@ date: 2018-05-10 22:28:32.000000000 +05:30
 type: blog
 categories: renewable energy
 tags: clean energy, renewable energy, mechanical engineering
-permalink: "blog/2018/renewable-energy-a-mechanical-engineering-field/"
+#permalink: "blog/2018/renewable-energy-a-mechanical-engineering-field/"
 ---
 
 | ![]({{ site.baseurl }}/assets/pexels-photo-421888-1.jpg)|
