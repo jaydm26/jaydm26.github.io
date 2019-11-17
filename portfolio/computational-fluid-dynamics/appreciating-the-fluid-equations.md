@@ -3,9 +3,9 @@ layout: post
 title: Appreciating the Fluid Equations
 type: portfolio
 date: 2019-09-10 15:03:29.000000000 +05:30
-categories: \\[computational fluid dynamics\\]
-tags: \\[cfd, fluids\\]
-permalink: "/portfolio/appreciating-the-fluid-equations/"
+categories: computational fluid dynamics
+tags: cfd, fluids
+#permalink: "/portfolio/appreciating-the-fluid-equations/"
 ---
 
 | ![]({{ site.baseurl }}/assets/streamlines_publish-1.jpg) |

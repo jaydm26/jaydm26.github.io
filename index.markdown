@@ -4,5 +4,8 @@
 
 layout: home
 title: Home
+type: menu-bar-item
+menu_order: 0
 permalink: /
 ---
+# Home Page
