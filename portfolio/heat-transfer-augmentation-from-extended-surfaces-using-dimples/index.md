@@ -14,7 +14,7 @@ The paper discusses a novel method to increase heat transfer from extended surfa
 
 Since fins are a passive cooling method, they are used in a variety of applications ranging from engine cooling to electronics cooling. The most common places one would see fins is in an air-conditioning unit. The small, densely packed wavy-structures are fins rejecting heat to the surrounding in a refrigeration cycle.
 
-|![Electronic cooling fins]({{ site.baseurl }}/assets/Electronic_cooling.jpg)  | ![Engine cooling fins]({{ site.baseurl }}/assets/Engine_fins.jpg)| ![Air conditioning unit condenser coils fins]({{ site.baseurl }}/assets/ac-coil.jpg) |
+|![Electronic cooling fins]({{ site.baseurl }}/assets/img/Electronic_cooling.jpg)  | ![Engine cooling fins]({{ site.baseurl }}/assets/img/Engine_fins.jpg)| ![Air conditioning unit condenser coils fins]({{ site.baseurl }}/assets/img/ac-coil.jpg) |
 |:--:|
 |<span style="font-family:Times New Roman; font-size: 1;">_Fins used for electronics cooling_| <span style="font-family:Times New Roman; font-size: 1;">_The ridges and grooves that make up the cooling system of an engine are fins._ | <span style="font-family:Times New Roman; font-size: 1;">_Condenser coil fins of an air-conditioning unit_|
 
@@ -34,11 +34,11 @@ Before I jump into what we did, I wanted to draw attention to the physical and m
 A fin is a extended surface attached to a hot surface which assists in heat loss to the surrounding. Of course, the vice-versa is also true. From the above pictures, it is clear how a fin looks for in real-world applications. For a theoretical understanding of fins, I will try to show the fin and discuss the mathematics behind it. For the curious readers, I would recommend referring to the "Fundamentals of Heat and Mass Transfer" by Theodore L. Bergman and my academic advisor at UCLA, Adrienne S. Lavine.
 
 |:--:|
-|![Image result for heat fin]({{ site.baseurl }}/assets/2003_Feb_CC_Figure1.jpg)|
+|![Image result for heat fin]({{ site.baseurl }}/assets/img/2003_Feb_CC_Figure1.jpg)|
 
 The above figure shows multiple fins. For the simplest design, consider only one fin, and assume that the fins do not interact with each other. The lower surface is assumed to be hotter than the surrounding (Tb > T∞). In its current form, the problem is in 3D. If we make simplifying assumptions of assuming a long, slender fin, we can reduce the problem down to 1D.
 
-|![Image result for heat fin analysis math]({{ site.baseurl }}/assets/1-s2.0-S2214157X1400015X-gr1.jpg)|
+|![Image result for heat fin analysis math]({{ site.baseurl }}/assets/img/1-s2.0-S2214157X1400015X-gr1.jpg)|
 
 From analysis available in Fundamentals of Heat and Mass Transfer, the equation governing equation for the fin becomes:
 
@@ -51,7 +51,7 @@ From analysis available in Fundamentals of Heat and Mass Transfer, the equation 
 
 The following results can be inferred from the respective boundary conditions:
 
-![]({{ site.baseurl }}/assets/fin.jpg?w=1024)
+![]({{ site.baseurl }}/assets/img/fin.jpg?w=1024)
 
 The mathematical solutions for each boundary condition can be obtained in Fundamentals of Heat and Mass Transfer.
 

@@ -15,7 +15,7 @@ The greatest advantage of the above method is it allows us to solve the CFD equa
 
 The method relies on the introducing an artificial forcing function to the momentum equation when there is a boundary present. The presence of a boundary is told to the equation using a Dirac function.
 
-|![]({{ site.baseurl }}/assets/delta-001.jpeg)|
+|![]({{ site.baseurl }}/assets/img/delta-001.jpeg)|
 
 The above is the Dirac function in 1D. This can obviously be extended to 2D and 3D by multiplying the Dirac function for each dimension. Example:
 
@@ -44,7 +44,7 @@ Of course, the above equations are only true in the continuous world. When we sw
 
 Various approximations for the Dirac function are available in literature. The one most commonly used was introduced by a student of Professor Peskin in a paper in 1999. The link to the paper is available [here](https://doi.org/10.1006/jcph.1999.6293). In the paper, the Dirac function is approximated as:
 
-![]({{ site.baseurl }}/assets/discrete-delta.001.jpeg?w=601)
+![]({{ site.baseurl }}/assets/img/discrete-delta.001.jpeg?w=601)
 
 Here, $latex x$ is non-dimensionalized with the grid spacing.
 

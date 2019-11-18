@@ -17,7 +17,7 @@ The Problem Statement
 
 The problem is described in the previous post. I will describe it here once again. A rectangular fin has the dimensions LxW. It is heated from the bottom with a constant heat flux of \\( q'\'\\). The other surfaces are losing heat to surrounding through via convection. The heat transfer coefficient \\( h\\) is assumed to be a constant. Surrounding air is at temperature \\( T\_{\\infty}\\).
 
-|![]({{ site.baseurl }}/assets/2d-fin-1.jpeg)|
+|![]({{ site.baseurl }}/assets/img/2d-fin-1.jpeg)|
 
 Solution:
 ---------
@@ -38,7 +38,7 @@ The Laplace equation is a second order linear differential equation. Due to its 
 
 Before we break down our problem, let us make a small simplification. Since the problem is symmetric in the X-direction, we will only solve for the positive half. The negative half will be a mirror image of this solution. Thus, the updated boundary condition will be \\( \\dfrac{\\partial T}{\\partial x} \\bigr\\vert\_{x=0,y}= 0\\).
 
-|![]({{ site.baseurl }}/assets/2d-fin-symmetric.jpeg)|
+|![]({{ site.baseurl }}/assets/img/2d-fin-symmetric.jpeg)|
 
 In the above diagram, for the full problem the boundary conditions are given by:
 

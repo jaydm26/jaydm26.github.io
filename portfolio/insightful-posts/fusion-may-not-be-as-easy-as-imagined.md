@@ -166,10 +166,10 @@ The solution below is for the following conditions:
 
 \\[ L = 10m, W = 10m, T\_{plasma} = 10000^{\\circ}C, \\alpha\_{steel} = 1.172e^{-5} m^2/s\\]
 
-| ![]({{ site.baseurl }}/assets/0s-2.jpg)|
-| ![]({{ site.baseurl }}/assets/1-2.jpg) |
-| ![]({{ site.baseurl }}/assets/2-2.jpg) |
-| ![]({{ site.baseurl }}/assets/3-2.jpg) |
+| ![]({{ site.baseurl }}/assets/img/0s-2.jpg)|
+| ![]({{ site.baseurl }}/assets/img/1-2.jpg) |
+| ![]({{ site.baseurl }}/assets/img/2-2.jpg) |
+| ![]({{ site.baseurl }}/assets/img/3-2.jpg) |
 |:--:|
 |<span style="font-family:Times New Roman; font-size: 1;"> _Temperature Distribution for a Steel plate 10mx10m exposed to an extremely high temperature impulse._|
 

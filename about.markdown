@@ -7,12 +7,17 @@ permalink: /about/
 ---
 ### About Me
 
-Hello!
+***
+<section id="img">
+  <img src="{{site.baseurl}}/assets/img/Head_Shot.png" alt="Head Shot" height="800" width="1200">
+</section>
+***
 
+Hello!
 
 I am Jay Mehta. I recently graduated from UCLA with a Masters of Science in Mechanical Engineering. My studies at UCLA focussed on the flow of fluid and heat. I developed an excellent foundation in these subjects. Further, I found a strong passion for the field of computational science and numerical analysis.
 
-Before UCLA, I was a student studying at the Shri Vile Parle Kelvani Mandal's Dwarkadas J. Sanghvi College of Engineering (affiliated to University of Mumbai). I am completed my Bachelors degree in Engineering with a specialisation in Mechanical Engineering.
+Before UCLA, I was a student studying at the Shri Vile Parle Kelavani Mandal's Dwarkadas J. Sanghvi College of Engineering (affiliated to University of Mumbai). I am completed my Bachelors degree in Engineering with a specialization in Mechanical Engineering.
 
 During my academic life, I came across comprehensive and deep concepts and ideas in mechanical engineering. Right from freshman year till senior year and graduate school, I was pushing the boundaries of my knowledge to learn more and in-depth, so that I have the technical skills to make it in the big, scary world! I am currently looking for full-time opportunities to work in the field of Mechanical Engineering and Computer Science.
 

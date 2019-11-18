@@ -8,7 +8,7 @@ tags: cfd, fluids
 #permalink: "/portfolio/appreciating-the-fluid-equations/"
 ---
 
-| ![]({{ site.baseurl }}/assets/streamlines_publish-1.jpg) |
+| ![]({{ site.baseurl }}/assets/img/streamlines_publish-1.jpg) |
 |:--:|
 | <span style="font-family:Times New Roman; font-size: 1;">_Streamlines around a cylinder of diameter = 1 in a flow of uniform velocity of U = 1. Note here that the diameter and velocity are non-dimensionalized, and thus do not have any units._|
 

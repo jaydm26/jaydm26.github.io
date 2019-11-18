@@ -8,7 +8,7 @@ tags: clean energy, renewable energy, mechanical engineering
 #permalink: "blog/2018/renewable-energy-a-mechanical-engineering-field/"
 ---
 
-| ![]({{ site.baseurl }}/assets/pexels-photo-421888-1.jpg)|
+| ![]({{ site.baseurl }}/assets/img/pexels-photo-421888-1.jpg)|
 |:--:|
 | <span style="font-family:Times New Roman; font-size: 1;">_As an aspiring graduate student, I had started exploring my options to study more about Renewable Energy._|
 

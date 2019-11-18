@@ -8,7 +8,7 @@ tags: demonetization, GST, finance
 #permalink: "blog/2018/what-is-wrong-with-the-indian-financial-system/"
 ---
 
-| ![]({{ site.baseurl }}/assets/pexels-photo-164636.jpg)|
+| ![]({{ site.baseurl }}/assets/img/pexels-photo-164636.jpg)|
 
 
 Demonetisation, GST, scams.... does the list end for the financial troubles in India? Are we ever going to see the promised "Ache Din" in the economy of India before the next elections?
