@@ -13,7 +13,6 @@ We currently have Computational Fluid Dynamics, Machine Learning, Insightful Pos
 
 {% endcomment %}
 
-
 |<a href="{{ site.baseurl }}/portfolio/computational-fluid-dynamics" target="_blank"> <img src="{{ site.baseurl }}/assets/img/cfd-main.jpg" alt="cfd"></a> | <a href="{{ site.baseurl }}/portfolio/machine-learning" target="_blank"> <img src="{{ site.baseurl }}/assets/img/pexels-photo-373543.jpeg" alt="ml"></a> |  <a href="{{ site.baseurl }}/portfolio/insightful-posts" target="_blank"> <img src="{{ site.baseurl }}/assets/img/insight-img.jpeg" alt="insight"></a> |
 | :----: | :----: | :----: |
 | [Computational Fluid Dynamics]({{ site.baseurl }}/portfolio/computational-fluid-dynamics) | [Machine Learning]({{ site.baseurl }}/portfolio/machine-learning) | [Insightful Posts]({{ site.baseurl }}/portfolio/insightful-posts) |

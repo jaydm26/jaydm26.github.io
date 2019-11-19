@@ -57,10 +57,32 @@ main {
 img {
   max-width: 100%;
   vertical-align: middle;
-  border-radius: 50%
+}
+.head-shot-circle {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+  height: auto;
+  vertical-align: middle;
+}
+.img-intro {
+  display: block;
+  height: auto;
+  vertical-align: middle;
+}
+.category-img {
+  height: auto;
+  width: 300px;
 }
 
 
+/**
+ * Flex Container
+ */
+.flex-container {
+  display: flex;
+}
 
 /**
  * Figures
