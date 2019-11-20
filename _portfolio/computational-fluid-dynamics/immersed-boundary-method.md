@@ -60,4 +60,4 @@ In conclusion, the Immersed Boundary Method allows us to solve for an immersed b
 
 This method can be extended to conserve any fluid property once we have obtained the velocity distribution of the flow for an incompressible Newtonian fluid (like temperature, species, etc.).
 
-One can refer to Professor Colonius and Professor Taira's paper [here](http://colonius.caltech.edu/pdfs/TairaColonius2007.pdf), and Professor Mittal and Iaccarino's paper [here](https://pdfs.semanticscholar.org/0ebc/8349657f7388476205e3cb03aaa162d45ac6.pdf) for more details and a thorough overview on the subject.
+One can refer to Professor Colonius and Professor Taira's paper [here](http://colonius.caltech.edu/pdfs/TairaColonius2007.pdf), and Professor Mittal and Professor Iaccarino's paper [here](https://pdfs.semanticscholar.org/0ebc/8349657f7388476205e3cb03aaa162d45ac6.pdf) for more details and a thorough overview on the subject.
