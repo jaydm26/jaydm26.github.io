@@ -139,7 +139,7 @@ The full solution thus is given by:
 
 \\[ \\displaystyle u(x, y) = \\sum\\limits\_{n = 0}^{\\infty} \\dfrac{\\displaystyle\\int\_{x = 0}^{x = L} \\sin(\\lambda\_n x) dx}{\\sinh(\\lambda\_n W) \\displaystyle\\displaystyle\\int\_{x = 0}^{x = L} \\sin^2(\\lambda\_n x)dx} \\sin(\\lambda\_n x)\\sinh(\\lambda\_n y)\\] where \\( \\displaystyle \\lambda\_n = \\dfrac{n\\pi}{L} \\)
 
-|![]({{ site.baseurl }}/assets/2d_diffusion.jpg)|
+|![]({{ site.baseurl }}/assets/img/2d_diffusion.jpg)|
 
 After so much cumbersome math, the question one should ask is what on earth does all this mean physically. Yes, the math is pretty but if it has no physical meaning, it is of no use to us. So let us try to unwrap the physical meaning of our solution.
 

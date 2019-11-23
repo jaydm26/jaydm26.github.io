@@ -21,7 +21,7 @@ Once we drop the requirement for everything to be deterministic, we come across 
 
 Random walk is a classical computer science problem where you are at the origin and are asked to move a set number of step on a grid. In a more abstract sense, the random walk problem can help you explore all the possible scenario you could encounter given the number of steps.
 
-| ![]({{ site.baseurl }}/assets/2d_grid.png) |
+| ![]({{ site.baseurl }}/assets/img/2d_grid.png) |
 
 Consider the grid here. Let us define the axes in the usual sense. You are at (0,0). Now, I ask you the following: find me the number of way to get to (1,1) in 2 steps.
 
