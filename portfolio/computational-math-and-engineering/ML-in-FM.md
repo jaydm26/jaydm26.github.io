@@ -3,7 +3,7 @@ layout: post
 title: Machine Learning in Fluid Dynamics?
 date: 23-11-2019 13:00:00
 type: post
-categories: Machine Learning
+categories: Computational Math and Engineering
 tags: ML, AI, deep learning
 #permalink:
 ---

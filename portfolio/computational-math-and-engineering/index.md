@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Machine Learning
+title: Computational Math and Engineering
 ---
 <ul>
 	{%- assign sorted_post = site.portfolio | sort: "date" | reverse -%}
