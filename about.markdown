@@ -8,7 +8,7 @@ permalink: /about/
 
 ***
 <section id="img">
-  <img src="{{site.baseurl}}/assets/img/Head_Shot.png" class="heat-shot-circle">
+  <img src="{{site.baseurl}}/assets/img/Head_Shot.png" class="head-shot-circle" height = auto width ="400" alt="Head Shot">
 </section>
 ***
 
