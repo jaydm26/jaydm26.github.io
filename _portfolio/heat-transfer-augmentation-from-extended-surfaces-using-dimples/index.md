@@ -80,11 +80,11 @@ The induction cooktop was an ingenious solution. Aluminum is a paramagnetic mate
 Numerical Simulations
 ---------------------
 
-I designed the experimental setup and fins on SolidWorks for CFD simulations in ANSYS Fluent. The problem to solve was a classic conjugate heat transfer problem. Constant heat flux was added from the bottom of the fin. Heat was carried away by the colder fluid through forced convection. The simulations were conducted in a pressure-based solver using the SIMPLE method. To model turbulence, we used the two-equation \\( k-\\epsilon\\) model.
+I designed the experimental setup and fins on SolidWorks for CFD simulations. The problem to solve was a classic conjugate heat transfer problem. Constant heat flux was added from the bottom of the fin. Heat was carried away by the colder fluid through forced convection. The simulations were conducted in a pressure-based solver using the SIMPLE method. To model turbulence, we used the two-equation \\( k-\\epsilon\\) model.
 
-The results of the simulation was studied and processed in MATLAB. The temperature variations were used to validate the numerical simulations against the real-world experiments. The data showed good correlation with uncertainties under our threshold. The temperature variation was also used to determine the Nusselt Number ratio compared to the base case (without dimples). A graph was plotted for the variation of Nusselt Number across the length of the body for different heights on the fin.
+The results of the simulation was studied and processed in Python. The temperature variations were used to validate the numerical simulations against the real-world experiments. The data showed good correlation with uncertainties under our threshold. The temperature variation was also used to determine the Nusselt Number ratio compared to the base case (without dimples). A graph was plotted for the variation of Nusselt Number across the length of the body for different heights on the fin.
 
-Further, from data obtained from ANSYS Fluent, we could observe the flow around the dimples that enabled the heat transfer augmentation. This also gave us an understanding of how the shape of the dimple affects the degree by which heat transfer is increased.
+Further, from data obtained from simulations, we could observe the flow around the dimples that enabled the heat transfer augmentation. This also gave us an understanding of how the shape of the dimple affects the degree by which heat transfer is increased.
 
 Results and Conclusions
 -----------------------
