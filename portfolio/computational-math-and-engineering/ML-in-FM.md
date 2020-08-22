@@ -5,7 +5,7 @@ date: 23-11-2019 13:00:00
 type: post
 categories: Computational Math and Engineering
 tags: ML, AI, deep learning, fluid mechanics
-#permalink:
+permalink: "/portfolio/computational-math-and-engineering/ML-in-FM"
 ---
 
 Machine Learning has become an attractive field for a variety of industries. Ever since the rapid growth available computers, machine learning has found use in almost all industries- biology, cybersecurity, finance, engineering, etc. But what is Machine Learning? And why is it working so well?

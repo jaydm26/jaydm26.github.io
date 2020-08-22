@@ -5,7 +5,7 @@ date: 08-03-2020 23:00:00
 type: post
 categories: Computational Math and Engineering
 tags: Stats, Uncertainty Quantification, Optimization
-#permalink:
+permalink: "/portfolio/computational-math-and-engineering/UQ"
 ---
 
 In a [previous post]({{ site.baseurl }}/portfolio/insightful-posts/the-probabilistic-nature-of-our-world/), I had posted about how our deterministic world is filled with probabilities. This notion kept bugging me for a long time. So I decided to find some answers. While exploring this topic, I came across a paper by [Zachary del Rosario](http://www.zdelrosario.com), a Ph.D student at Stanford University, who written fantastic papers on Reliability Based Design Optimization (RBDO).
