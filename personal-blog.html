@@ -8,8 +8,8 @@ menu_order: 3
 <h1> This is the place for all personal blog posts </h1>
 <ul>
 	{%- for post in site.blog -%}
-		<li><a class="post-link" href = "{{post.url | relative_url}}">{{post.title | escape}}</a>
-			{%- if site.show_excerpt -%} {{post.excerpt}} {%- endif -%}
-		</li>
+	<li><a class="post-link" href="{{post.url | relative_url}}">{{post.title | escape}}</a>
+		{%- if site.show_excerpt -%} {{post.excerpt}} {%- endif -%}
+	</li>
 	{%- endfor -%}
 </ul>
