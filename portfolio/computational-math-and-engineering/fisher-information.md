@@ -28,7 +28,7 @@ where $latex \\eta \\sim \\mathcal{N}(0,\\sigma)$. Now, with the presence of sto
 
 While an exact pdf of the distribution is not possible unless we are aware of the distributions for X and Y, we can still provide statistics about W (i.e. its MLE and variance). Fisher Information for the most general case is given by:
 
-\\[ I(\\theta) = E\\left[ \\left( \\left\. \dfrac{\\partial}{\\partial \\theta} f(X;\\theta)\\right)^2 \\right \| \\theta \\right]\\int_{\\mathbb{R}} \\left( \\dfrac{\\partial}{\\partial \\theta} \\ log \\ f(x;\\theta) \\right)^2 f(x;\\theta) dx \\]
+\\[ I(\\theta) = E\\left[ \\left( \\left\. \dfrac{\\partial}{\\partial \\theta} f(X;\\theta)\\right)^2 \\right \| \\theta \\right]\\int\_{\\mathbb{R}} \\left( \\dfrac{\\partial}{\\partial \\theta} \\ log \\ f(x;\\theta) \\right)^2 f(x;\\theta) dx \\]
 
 Under certain conditions, and $latex f(x; \\theta)$ being twice differentiable, we have:
 
@@ -56,7 +56,7 @@ Taking the Hessian of $latex l$ with respect to $latex w$,
 
 Taking the negative expected value of the Hessian, we obtain the Fisher Information for our linear regression model,
 
-\\[ I(w) = -E \\left[ H(w) \\right] = - \\int_{\\mathbb{R}} \\dfrac{-xx^T}{\\sigma^2} f(y; w) dy = \\dfrac{xx^T}{\\sigma^2} \\]
+\\[ I(w) = -E \\left[ H(w) \\right] = - \\int\_{\\mathbb{R}} \\dfrac{-xx^T}{\\sigma^2} f(y; w) dy = \\dfrac{xx^T}{\\sigma^2} \\]
 
 We can readily verify this information as we know that the variance for a scalar linear regression model is given by $latex \\dfrac{\\sigma^2}{xx^T}$.
 
@@ -70,7 +70,7 @@ Similar methodology is implemented to obtain the Hessian. The Hessian is given b
 
 The negative expected value of the above Hessian yields the Fisher Information.
 
-\\[ I(w) = -E \\left[ H(w) \\right] = -\\dfrac{1}{\\sigma^2}\\int_{\\mathbb{R}} \\left[ \\left( \\left. \\dfrac{\partial g}{\\partial w} \\right\|_{x} \\right)^2 + (y - g(x;w)) \\left( \\left. \\dfrac{\\partial^2 g}{ \\partial w^2} \\right\|_x \\right) \\right] f(y;w)dy \\]
+\\[ I(w) = -E \\left[ H(w) \\right] = -\\dfrac{1}{\\sigma^2}\\int*{\\mathbb{R}} \\left[ \\left( \\left. \\dfrac{\partial g}{\\partial w} \\right\|*{x} \\right)^2 + (y - g(x;w)) \\left( \\left. \\dfrac{\\partial^2 g}{ \\partial w^2} \\right\|\_x \\right) \\right] f(y;w)dy \\]
 
 This results in
 
@@ -83,3 +83,5 @@ We can use the Fisher Information (or Fisher Information Matrix) to provide us a
 \\[ Var(\\theta) \\geq \\dfrac{1}{I(\\theta)} \\]
 
 In the case of multi-parameter estimation, we will obtain the covariance matrix. As one can already guess, with the covariance matrix, it is now possible to provide a confidence interval for the parameters, and propogate the uncertainty forwards in a model. This could also used in Gaussian Processes (if Y is distributed normally).
+
+You can follow along with the steps described above in the notebook [here](https://github.com/jaydm26/Kalman-Filter/blob/master/Fisher%20Information.ipynb).
