@@ -42,17 +42,17 @@ Note that $latex x = x^T$ and $latex \\sigma = 1$. Mathematically, we can repres
 
 Since we know $latex \\eta$, we can argue that $latex y$ must be a Gaussian. Thus, the log-likelihood of $latex Y$ is given by:
 
-\\[ l(\\mu, \\sigma) = \\dfrac{1}{2} \\ log(2\\pi\\sigma^2) + \\dfrac{(y - x^Tw)^2}{2\\sigma^2} \\]
+\\[ l(\\mu, \\sigma) = \\dfrac{1}{2} \\ log(2\\pi\\sigma^2) - \\dfrac{(y - x^Tw)^2}{2\\sigma^2} \\]
 
 Here, $latex \\mu = x^Tw$.
 
 Taking the gradient of $latex l$ with respect to $latex w$,
 
-\\[ S(w) = \\dfrac{\\partial}{\\partial w} l(w) = \\dfrac{(y-x^Tw)x}{\\sigma^2} \\]
+\\[ S(w) = -\\dfrac{\\partial}{\\partial w} l(w) = \\dfrac{(y-x^Tw)x}{\\sigma^2} \\]
 
 Taking the Hessian of $latex l$ with respect to $latex w$,
 
-\\[ H(w) = \\dfrac{\\partial^2}{\\partial w^2} l(w) = \\dfrac{-xx^T}{\\sigma^2} \\]
+\\[ H(w) = -\\dfrac{\\partial^2}{\\partial w^2} l(w) = \\dfrac{-xx^T}{\\sigma^2} \\]
 
 Taking the negative expected value of the Hessian, we obtain the Fisher Information for our linear regression model,
 
@@ -66,15 +66,15 @@ We can further generalise this process for any model,
 
 Similar methodology is implemented to obtain the Hessian. The Hessian is given by:
 
-\\[ H(w) = \\dfrac{1}{\\sigma^2} \\left[ \\left( \\left. \\dfrac{\partial g}{\\partial w} \\right\|_{x} \\right)^2 + (y - g(x;w)) \\left( \\left. \\dfrac{\\partial^2 g}{ \\partial w^2} \\right\|_x \\right) \\right] \\]
+\\[ H(w) = -\\dfrac{1}{\\sigma^2} \\left[ \\left( \\left. \\dfrac{\partial g}{\\partial w} \\right\|_{x} \\right)^2 + (y - g(x;w)) \\left( \\left. \\dfrac{\\partial^2 g}{ \\partial w^2} \\right\|_x \\right) \\right] \\]
 
 The negative expected value of the above Hessian yields the Fisher Information.
 
-\\[ I(w) = -E \\left[ H(w) \\right] = -\\dfrac{1}{\\sigma^2}\\int*{\\mathbb{R}} \\left[ \\left( \\left. \\dfrac{\partial g}{\\partial w} \\right\|*{x} \\right)^2 + (y - g(x;w)) \\left( \\left. \\dfrac{\\partial^2 g}{ \\partial w^2} \\right\|\_x \\right) \\right] f(y;w)dy \\]
+\\[ I(w) = -E \\left[ H(w) \\right] = \\dfrac{1}{\\sigma^2}\\int*{\\mathbb{R}} \\left[ \\left( \\left. \\dfrac{\partial g}{\\partial w} \\right\|*{x} \\right)^2 + (y - g(x;w)) \\left( \\left. \\dfrac{\\partial^2 g}{ \\partial w^2} \\right\|\_x \\right) \\right] f(y;w)dy \\]
 
 This results in
 
-\\[ I(w) = -\\dfrac{1}{\\sigma^2}E \\left[ \\left( \\left. \\dfrac{\partial g}{\\partial w} \\right\|_{x} \\right)^2 \\right] \\]
+\\[ I(w) = \\dfrac{1}{\\sigma^2}E \\left[ \\left( \\left. \\dfrac{\partial g}{\\partial w} \\right\|_{x} \\right)^2 \\right] \\]
 
 For multiple readings, Fisher Information is additive. Further, if $latex w$ is a vector (i.e. multi-parameter regression), additional care must be taken to derive the Hessian. The resulting Hessian is now a matrix. This leads to the formation of the Fisher Information Matrix (FIM).
 
